@@ -39,7 +39,7 @@ export default {
 </script>
 
 <style scoped>
-#card-container {
+.collection-container {
   width: 100%;
   justify-items: center;
   display: flex;

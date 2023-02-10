@@ -7,9 +7,6 @@
     </div>
     <h2>Profile Information</h2>
     <form action="">
-      <label for="username" class="input-label">Username
-        <input v-model="user.username" id="username" name="username">
-      </label>
       <label for="select-profile-pokemon" class="input-label">Profile Pokemon
         <select-profile-pokemon id="select-profile-pokemon" @changeProfilePokemon="(selectedPokemon) => newPokemon = selectedPokemon"/>
       </label>
